@@ -1100,7 +1100,7 @@
     .nav-bar{
       width: 100%;
       /* padding: 0 0.3em 0 0.7em; */
-      padding: 0 0.35em 0 1em;
+      padding: 0 1em 0 1em;
       flex-direction: row-reverse;
     }
     .bars{
@@ -1113,6 +1113,7 @@
     .bars-icon{
       color: #332e3b;
       font-size: 1.2em;
+
     }
     .search{
       gap: 20px;
