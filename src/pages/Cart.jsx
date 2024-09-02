@@ -25,7 +25,7 @@ const Cart = () => {
     <>
       <div className="cart-heading">
         <h2>Your Cart</h2>
-        <NavLink to='/shop' className='cart-shopping-link'>Continue Shopping</NavLink>
+        <NavLink to='/' className='cart-shopping-link'>Continue Shopping</NavLink>
       </div>
       <div className="cart-container">
         <div className="cart-header">
