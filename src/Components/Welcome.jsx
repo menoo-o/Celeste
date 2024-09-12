@@ -5,10 +5,9 @@ const Welcome = () => {
     <>
               <section className="welcom">
                     <div className="para">
-                    <h2 className='para-heading'>Celeste, Where Warmth Meets Wonder</h2>
-<p>
-  From <strong>soothing scents</strong> to <strong>soft, golden light</strong>, every detail is designed to help you unwind, relax, and <em>reconnect with what matters most</em>.
-</p>
+                    <h2 className='para-heading'>Sejr, Treasured Moments, Timeless Style</h2>
+                    <p>
+                      Discover a world of <strong>breathtaking beauty</strong> and <strong>exceptional craftsmanship</strong>, where every piece of jewelry is carefully curated to help you <em>shine, express yourself, and treasure life's precious moments</em>.</p>
 
                     </div>
             </section>

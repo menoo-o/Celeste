@@ -7,18 +7,18 @@ import '../App.css'; // CSS file for styling
 const Recipes = () => {
   const recipes = [
     {
-      imgSrc: '/recipes/01.png',
-      title: 'Candle of the Month',
+      imgSrc: '/recipes/01.webp',
+      title: 'The Ultimate Guide to Promise Rings',
       link: '#',
     },
     {
-      imgSrc: '/recipes/02.png',
-      title: 'How to Care for your Candles',
+      imgSrc: '/recipes/02.webp',
+      title: 'How to Care for your Jewllery',
       link: '#',
     },
     {
-      imgSrc: '/recipes/03.png',
-      title: 'The Candle Club',
+      imgSrc: '/recipes/03.webp',
+      title: 'How to Choose Jewelry for Sensitive Skin',
       link: '#',
     },
   ];

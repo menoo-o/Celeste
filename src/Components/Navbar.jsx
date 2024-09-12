@@ -3,15 +3,15 @@ import '../Components/Nav.css'
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import DropNav from './DropNav';
-import { faUser, faCartShopping, faMagnifyingGlass,  faCheck, faLeaf, faTruckFast, faCube } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faCartShopping, faMagnifyingGlass,  faCheck, faTruckFast, faCube, faCreditCard } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar(){
   const routes = [
     { name: 'Home', path: '/' },
     { name: 'Shop', path: '/shop' },
-    { name: 'About', path: '/about' },
+    { name: 'Collections', path: '/shop' },
     { name: 'Blogs', path: '/blogs' },
-    { name: 'Candle Subscription', path: '/recipes' },
+    { name: 'About', path: '/about' },
     { name: 'Contact Us', path: '/contact' },
 
   ];
@@ -49,7 +49,7 @@ return (
 
           <div className="search">
                <a href="#"> <FontAwesomeIcon icon={faMagnifyingGlass}  />  </a>
-               <NavLink to="/cart">
+               <NavLink to="/">
                  <FontAwesomeIcon icon={faCartShopping} />
                 </NavLink>
                <a href="#"> <FontAwesomeIcon icon={faUser} className='fa-user'  />  </a>
@@ -66,10 +66,10 @@ return (
                   <p className="icon-text" > <FontAwesomeIcon icon={faCheck} className="icons-links" />Free shipping</p>
               </div>           
               <div className="icon2 leaf">
-                <p className="icon-text"><FontAwesomeIcon icon={faLeaf} className="icons-links"/>100% Plastic-Free</p>
+                <p className="icon-text"><FontAwesomeIcon icon={faCreditCard} className="icons-links"/>Advance Payment</p>
               </div> 
               <div className="icon3">
-                  <p className="icon-text"><FontAwesomeIcon icon={faCube} className="icons-links" />Delievering in Isb, Rwp</p>
+                  <p className="icon-text"><FontAwesomeIcon icon={faCube} className="icons-links" />Delievering Nationwide</p>
               </div>
               <div className="icon4">
                   <p className="icon-text"><FontAwesomeIcon icon={faTruckFast} className="icons-links" />Swift delivery</p>
@@ -87,10 +87,10 @@ return (
                 <p className="icon-text" > <FontAwesomeIcon icon={faCheck} className="icons-links" /> Free shipping</p>
               </div>
               <div className=" marquee__item">
-              <p className="icon-text"><FontAwesomeIcon icon={faLeaf} className="icons-links"/>100% Plastic-Free</p>
+              <p className="icon-text"><FontAwesomeIcon icon={faCreditCard} className="icons-links"/>Advance Payment</p>
               </div>
               <div className=" marquee__item">
-              <p className="icon-text"><FontAwesomeIcon icon={faCube} className="icons-links" />Delievering in Islamabad</p>
+              <p className="icon-text"><FontAwesomeIcon icon={faCube} className="icons-links" />Delievering Nationwide</p>
               </div>
               <div className=" marquee__item">
               <p className="icon-text"><FontAwesomeIcon icon={faTruckFast} className="icons-links" />Swift delivery</p>
@@ -102,7 +102,7 @@ return (
                 <p className="icon-text" > <FontAwesomeIcon icon={faCheck} className="icons-links" />Free shipping</p>
               </div>
               <div className=" marquee__item">
-              <p className="icon-text"><FontAwesomeIcon icon={faLeaf} className="icons-links"/>100% Plastic-Free</p>
+              <p className="icon-text"><FontAwesomeIcon icon={faCreditCard} className="icons-links"/>Advance Payment</p>
               </div>
               <div className=" marquee__item">
               <p className="icon-text"><FontAwesomeIcon icon={faCube} className="icons-links" />Delievering in Islamabad</p>

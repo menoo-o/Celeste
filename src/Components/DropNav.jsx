@@ -112,7 +112,7 @@ function DropdownMenu({ closeDropdown }) {
         <div className="menu">
           <DropdownItem to="/" closeDropdown={closeDropdown}>Home</DropdownItem>
           <DropdownItem goToMenu="shop">Shop</DropdownItem>
-          <DropdownItem to="/" closeDropdown={closeDropdown}>Candle Subscription</DropdownItem>
+          <DropdownItem to="/" closeDropdown={closeDropdown}>Collections</DropdownItem>
           <DropdownItem to="/" closeDropdown={closeDropdown}>Blogs</DropdownItem>
           <DropdownItem to="/" closeDropdown={closeDropdown}>Contact Us</DropdownItem>
           <DropdownItem to="/" closeDropdown={closeDropdown}>About Us</DropdownItem>
@@ -140,9 +140,12 @@ function DropdownMenu({ closeDropdown }) {
             <h2>Categories</h2>
           </DropdownItem>
           <DropdownItem to="/" closeDropdown={closeDropdown}>All Products</DropdownItem>
-          <DropdownItem to="/" closeDropdown={closeDropdown}>Scented Candles</DropdownItem>
-          <DropdownItem to="/" closeDropdown={closeDropdown}>Cards</DropdownItem>
-          <DropdownItem to="/" closeDropdown={closeDropdown}>Stickers</DropdownItem>
+          <DropdownItem to="/" closeDropdown={closeDropdown}>Bracelets</DropdownItem>
+          <DropdownItem to="/" closeDropdown={closeDropdown}>Necklace</DropdownItem>
+          <DropdownItem to="/" closeDropdown={closeDropdown}>Earrings</DropdownItem>
+          <DropdownItem to="/" closeDropdown={closeDropdown}>Rings</DropdownItem>
+          <DropdownItem to="/" closeDropdown={closeDropdown}>Pendants</DropdownItem>
+          <DropdownItem to="/" closeDropdown={closeDropdown}>Anklets</DropdownItem>
           
         </div>
       </CSSTransition>

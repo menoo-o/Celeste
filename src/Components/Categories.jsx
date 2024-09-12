@@ -7,26 +7,50 @@ const Categories = () => {
       <section className="collection categories">
         <div className="list">
           {/* Scented Candles */}
-          <NavLink to="/shop?category=Grains%20%26%20Flour" className="image-container grains-cereals">
-            <img src="/categories/6.png" alt="grains and flour" width="200" height="200" />
+          <NavLink to="/" className="image-container grains-cereals">
+            <img src="/categories/01.png" alt="Bracelets" width="200" height="200" />
             <div>
-              <p>Scented Candles</p>
+              <p>Bracelets</p>
             </div>
           </NavLink>
 
           {/* Stickers */}
-          <NavLink to="/shop?category=Rice" className="image-container Rice">
-            <img src="/#" alt="Stickers" width="200" height="200" />
+          <NavLink to="/" className="image-container Rice">
+            <img src="/categories/02.png" alt="Necklace" width="200" height="200" />
             <div>
-              <p>Stickers</p>
+              <p>Necklace</p>
             </div>
           </NavLink>
 
           {/* Cards */}
-          <NavLink to="/shop?category=Lentils" className="image-container lentils-beans">
-            <img src="#" alt="Cards" width="200" height="200" />
+          <NavLink to="/" className="image-container lentils-beans">
+            <img src="categories/03.png" alt="Earrings" width="200" height="200" />
             <div>
-              <p>Cards</p>
+              <p>Earrings</p>
+            </div>
+          </NavLink>
+
+          {/* Cards */}
+          <NavLink to="/" className="image-container lentils-beans">
+            <img src="categories/04.png" alt="Rings" width="200" height="200" />
+            <div>
+              <p>Rings</p>
+            </div>
+          </NavLink>
+          {/* Cards */}
+          
+          <NavLink to="/" className="image-container lentils-beans">
+            <img src="categories/05.png" alt="Pendants" width="200" height="200" />
+            <div>
+              <p>Pendants</p>
+            </div>
+          </NavLink>
+
+          {/* Cards */}
+          <NavLink to="/" className="image-container lentils-beans">
+            <img src="categories/06.png" alt="Anklets" width="200" height="200" />
+            <div>
+              <p>Anklets</p>
             </div>
           </NavLink>
 

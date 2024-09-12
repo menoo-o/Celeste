@@ -20,7 +20,7 @@ const Footer = () => {
           <li><NavLink to="/" activeClassName="active-link">Home</NavLink></li>
           <li><NavLink to="/" activeClassName="active-link">About</NavLink></li>
           <li><NavLink to="/" activeClassName="active-link">Shop</NavLink></li>
-          <li><NavLink to="/" activeClassName="active-link">Recipes</NavLink></li>
+          <li><NavLink to="/" activeClassName="active-link">Collections</NavLink></li>
           <li><NavLink to="/" activeClassName="active-link">Blog</NavLink></li>
           <li><NavLink to="/" activeClassName="active-link">Contact Us</NavLink></li>
         </ul>
@@ -35,9 +35,9 @@ const Footer = () => {
         </ul>
       </div>
         <div className="footer-section foot-about">
-          <h3>A Celestial Touch, in Every Glow</h3>
+          <h3>Sparkling with Passion</h3>
           <p>
-          Our candles are inspired by the magic of the stars and the beauty of the night sky. We hope that every Celeste candle brings a touch of celestial wonder into your life.
+          At SEJR, we believe that jewelry is more than just a accessory - it's a way to express yourself, tell your story, and treasure life's precious moments. That's why we curate exquisite, high-quality pieces that sparkle with passion and shine with excellence
           </p>
         </div>
         <div className="footer-section">
@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Celeste. All Rights Reserved.</p>
+        <p>&copy; 2024 SEJR. All Rights Reserved.</p>
       </div>
     </div>
     </>

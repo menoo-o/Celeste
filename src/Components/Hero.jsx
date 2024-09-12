@@ -3,8 +3,8 @@ import '../App.css'; // Import custom styles
 const Hero = () => {
   // Use the first carousel item as the hero image
   const heroImage = {
-    imgSrc: '/1.webp',
-    text: 'Melt Into The Moment',
+    imgSrc: '/hero.webp',
+    text: 'Elegance in every Detail',
   };
 
   return (

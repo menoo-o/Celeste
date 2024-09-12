@@ -4,11 +4,11 @@ import CarouselComponent from './CarouselComponent';
 import Button from './Button';
 
 const newArrivals = [
-    { imgSrc: '/new-items/bella.png', title: 'BellaTrix' },
-    { imgSrc: '/new-items/flame.png', title: 'Aurora Flame' },
-    { imgSrc: '/new-items/luna.png', title: 'Luna Night' },
-    { imgSrc: '/new-items/lyra.png', title: "Lyra's Light" },
-    { imgSrc: '/new-items/pulse.png', title: "Polaris Pulse " },
+    { imgSrc: '/new-items/01.png', title: 'Rose Glazed Pendant' },
+    { imgSrc: '/new-items/02.png', title: 'Vintage Stone Ring' },
+    { imgSrc: '/new-items/03.png', title: 'Rhinestone Orm Chain' },
+    { imgSrc: '/new-items/04.png', title: "Lyra's Light" },
+    { imgSrc: '/new-items/05.png', title: "Polaris Pulse " },
     
     // Add more items
 ];
